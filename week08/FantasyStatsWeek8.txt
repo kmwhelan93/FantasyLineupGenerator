@@ -1,0 +1,302 @@
+PLAYERS		STATUS			WK 8			PASSING					RUSHING				RECEIVING					MISC				TOTAL
+PLAYER, TEAM POS		TYPE	ACTION		OPP	STATUS ET		C/A	YDS	TD	INT		RUSH	YDS	TD		REC	YDS	TD	TAR		2PC	FUML	TD		PTS
+Ben Roethlisberger, Pit QB		NOMS			Ind	W 51-34		40/49	522	6	0		1	-1	0		0	0	0	0		0	0	0		44
+Arian Foster*, Hou RB  O		GREG			@Ten	W 30-16		0/0	0	0	0		20	151	2		4	22	1	6		0	0	0		35
+Tom Brady, NE QB  P		BOSS			Chi	W 51-23		30/35	354	5	0		2	0	0		0	0	0	0		0	0	0		34
+Rob Gronkowski, NE TE		CHB			Chi	W 51-23		0/0	0	0	0		0	0	0		9	149	3	9		0	0	0		32
+Jeremy Maclin, Phi WR		PERO			@Ari	L 20-24		0/0	0	0	0		0	0	0		12	187	2	16		0	0	0		30
+Emmanuel Sanders, Den WR  P		CHB			SD	W 35-21		0/0	0	0	0		1	6	0		9	120	3	9		0	0	0		30
+Andrew Luck, Ind QB		DC00			@Pit	L 34-51		26/45	400	3	2		3	26	0		0	0	0	0		0	0	0		26
+Dolphins D/ST D/ST		LIND			@Jac	W 27-13		0/0	0	0	0		0	0	0		0	0	0	0		0	0	2		26
+Kyle Orton, Buf QB  P		WA (Wed)			@NYJ	W 43-23		10/17/2014	238	4	0		2	6	0		0	0	0	0		0	0	0		25
+Antonio Brown, Pit WR		LIND			Ind	W 51-34		0/0	0	0	0		1	5	0		10	133	2	13		0	0	0		25
+Drew Brees, NO QB		BALS			GB	W 44-23		27/32	311	3	0		1	6	0		0	0	0	0		0	0	0		24
+Aaron Rodgers, GB QB		GREG			@NO	L 23-44		28/39	418	1	2		2	21	1		0	0	0	0		0	0	0		24
+Matt Forte, Chi RB		RUCK			@NE	L 23-51		0/0	0	0	0		19	114	0		6	54	1	8		1	0	0		24
+Peyton Manning, Den QB		Solo			SD	W 35-21		25/35	286	3	0		1	0	0		0	0	0	0		0	0	0		23
+Mark Ingram, NO RB  P		BOSS			GB	W 44-23		0/0	0	0	0		24	172	1		1	3	0	2		0	0	0		23
+Larry Fitzgerald, Ari WR  Q		RUCK			Phi	W 24-20		0/0	0	0	0		0	0	0		7	160	1	10		0	0	0		22
+Carson Palmer*, Ari QB  IR		PERO			Phi	W 24-20		20/42	329	2	0		0	0	0		0	0	0	0		0	0	0		21
+Jay Cutler, Chi QB		RUCK			@NE	L 23-51		20/30	227	3	1		1	6	0		0	0	0	0		2	1	0		21
+Golden Tate, Det WR  P		DC00			@Atl	W 22-21		0/0	0	0	0		0	0	0		7	151	1	14		0	0	0		21
+Nick Foles*, Phi QB  O		LIND			@Ari	L 20-24		36/62	411	2	2		2	14	0		0	0	0	0		0	0	0		21
+T.Y. Hilton, Ind WR		PERO			@Pit	L 34-51		0/0	0	0	0		0	0	0		6	155	1	9		0	0	0		21
+Sammy Watkins, Buf WR  P		BOSS			@NYJ	W 43-23		0/0	0	0	0		0	0	0		3	157	1	6		0	0	0		21
+Brandin Cooks*, NO WR  IR		DC00			GB	W 44-23		0/0	0	0	0		1	4	1		6	94	1	7		0	0	0		21
+Jamaal Charles, KC RB		BOSS			StL	W 34-7		0/0	0	0	0		14	67	2		4	44	0	4		0	1	0		20
+DeMarco Murray, Dal RB		RUCK			Wsh	L 17-20		0/0	0	0	0		19	141	0		4	80	0	4		0	1	0		20
+Martavis Bryant, Pit WR		WA (Wed)			Ind	W 51-34		0/0	0	0	0		0	0	0		5	83	2	7		0	0	0		20
+Chiefs D/ST D/ST		WA (Wed)			StL	W 34-7		0/0	0	0	0		0	0	0		0	0	0	0		0	0	1		20
+Vikings D/ST D/ST		BALS			@TB	W 19-13		0/0	0	0	0		0	0	0		0	0	0	0		0	0	1		20
+Philip Rivers, SD QB  P		PERO			@Den	L 21-35		30/41	252	3	2		1	17	0		0	0	0	0		0	0	0		19
+Matthew Stafford, Det QB		LIND			@Atl	W 22-21		24/47	325	2	1		3	9	0		0	0	0	0		0	0	0		19
+Andy Dalton, Cin QB		RUCK			Bal	W 27-24		21/28	266	0	1		6	14	2		0	0	0	0		0	1	0		19
+Brandon LaFell, NE WR		WA (Wed)			Chi	W 51-23		0/0	0	0	0		0	0	0		11	124	1	11		0	0	0		18
+Randall Cobb, GB WR		GREG			@NO	L 23-44		0/0	0	0	0		0	0	0		5	126	1	7		0	0	0		18
+Lorenzo Taliaferro, Bal RB		WA (Wed)			@Cin	L 24-27		0/0	0	0	0		7	27	2		2	42	0	3		0	0	0		18
+Antonio Gates, SD TE		BOSS			@Den	L 21-35		0/0	0	0	0		0	0	0		5	54	2	8		0	0	0		17
+Heath Miller, Pit TE		WA (Wed)			Ind	W 51-34		0/0	0	0	0		0	0	0		7	112	1	8		0	0	0		17
+Eddie Lacy, GB RB		BALS			@NO	L 23-44		0/0	0	0	0		13	59	0		8	123	0	9		0	0	0		17
+Donte Moncrief, Ind WR		WA (Wed)			@Pit	L 34-51		0/0	0	0	0		0	0	0		7	113	1	12		0	0	0		17
+John Brown, Ari WR		WA (Wed)			Phi	W 24-20		0/0	0	0	0		0	0	0		5	119	1	10		0	0	0		17
+Colt McCoy, Wsh QB		WA (Wed)			@Dal	W 20-17		25/30	299	0	1		7	16	1		0	0	0	0		0	0	0		16
+Chris Ivory, NYJ RB  P		LIND			Buf	L 23-43		0/0	0	0	0		13	43	2		0	0	0	2		0	0	0		16
+Knile Davis, KC RB		PERO			StL	W 34-7		0/0	0	0	0		16	49	1		0	0	0	1		0	0	1		16
+Bills D/ST D/ST		Solo			@NYJ	W 43-23		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		16
+Stephen Gostkowski, NE K		RUCK			Chi	W 51-23		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		15
+Matt Ryan, Atl QB		GREG			Det	L 21-22		20/27	228	2	1		1	6	0		0	0	0	0		0	0	0		15
+Martellus Bennett, Chi TE		Solo			@NE	L 23-51		0/0	0	0	0		0	0	0		6	95	1	7		0	0	0		15
+Dan Carpenter, Buf K  P		PERO			@NYJ	W 43-23		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		15
+Brian Hoyer, Cle QB		WA (Wed)			Oak	W 23-13		19/28	275	1	0		2	1	0		0	0	0	0		0	0	0		15
+Justin Tucker, Bal K		RUCK			@Cin	L 24-27		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		15
+Derek Carr, Oak QB  P		WA (Wed)			@Cle	L 13-23		34/54	328	1	0		2	-3	0		0	0	0	1		0	1	0		15
+Zach Mettenberger, Ten QB		WA (Wed)			Hou	L 16-30		27/41	299	2	1		1	-1	0		0	0	0	0		0	1	0		15
+Shayne Graham, NO K		WA (Wed)			GB	W 44-23		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		14
+Ryan Fitzpatrick, Hou QB		WA (Wed)			@Ten	W 30-16		19/35	227	1	0		4	12	0		0	0	0	0		0	0	0		14
+Ahmad Bradshaw*, Ind RB  IR		LIND			@Pit	L 34-51		0/0	0	0	0		6	35	1		7	52	0	7		0	0	0		14
+Andrew Hawkins, Cle WR		WA (Wed)			Oak	W 23-13		0/0	0	0	0		0	0	0		7	88	1	9		0	0	0		14
+Mohamed Sanu, Cin WR		BALS			Bal	W 27-24		0/0	0	0	0		2	27	0		5	125	0	9		0	0	0		14
+Alfred Morris, Wsh RB		Solo			@Dal	W 20-17		0/0	0	0	0		18	73	1		1	12	0	1		0	0	0		14
+Le'Veon Bell, Pit RB		PERO			Ind	W 51-34		0/0	0	0	0		24	92	0		6	56	0	7		0	0	0		14
+Allen Robinson*, Jac WR  IR		WA (Wed)			Mia	L 13-27		0/0	0	0	0		0	0	0		5	82	1	10		0	0	0		14
+Juwan Thompson, Den RB  P		WA (Wed)			SD	W 35-21		0/0	0	0	0		7	24	2		0	0	0	1		0	0	0		14
+Billy Cundiff, Cle K		WA (Wed)			Oak	W 23-13		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		13
+Jason Witten, Dal TE		GREG			Wsh	L 17-20		0/0	0	0	0		0	0	0		5	70	1	8		0	0	0		13
+DeSean Jackson, Wsh WR		BALS			@Dal	W 20-17		0/0	0	0	0		0	0	0		6	136	0	7		0	0	0		13
+Ryan Tannehill, Mia QB  P		BALS			@Jac	W 27-13		16/29	196	1	1		5	48	0		0	0	0	0		0	0	0		13
+Randy Bullock, Hou K		WA (Wed)			@Ten	W 30-16		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		13
+Keenan Allen, SD WR		LIND			@Den	L 21-35		0/0	0	0	0		0	0	0		9	73	1	13		0	0	0		13
+Theo Riddick, Det RB		WA (Wed)			@Atl	W 22-21		0/0	0	0	0		3	5	0		8	74	1	12		0	0	0		13
+Teddy Bridgewater, Min QB		WA (Wed)			@TB	W 19-13		24/42	241	1	0		1	3	0		0	0	0	0		0	0	0		13
+Tony Romo, Dal QB  P		CHB			Wsh	L 17-20		17/28	209	1	0		1	1	0		0	0	0	0		0	0	0		12
+Steven Jackson, Atl RB  P		NOMS			Det	L 21-22		0/0	0	0	0		18	60	1		0	0	0	0		0	0	0		12
+Mason Crosby, GB K		WA (Wed)			@NO	L 23-44		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		12
+Andre Holmes, Oak WR		NOMS			@Cle	L 13-23		0/0	0	0	0		0	0	0		5	69	1	7		0	0	0		12
+Russell Wilson, Sea QB		DC00			@Car	W 13-9		20/32	199	1	1		6	35	0		0	0	0	0		0	0	0		12
+Ronnie Hillman*, Den RB  O		WA (Wed)			SD	W 35-21		0/0	0	0	0		20	109	0		3	29	0	4		0	0	0		12
+Andre Ellington, Ari RB  P		RUCK			Phi	W 24-20		0/0	0	0	0		23	71	1		3	14	0	6		0	1	0		12
+Tim Wright, NE TE		WA (Wed)			Chi	W 51-23		0/0	0	0	0		1	-2	0		7	61	1	7		0	0	0		12
+Cairo Santos, KC K		WA (Wed)			StL	W 34-7		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		12
+Patriots D/ST D/ST		GREG			Chi	W 51-23		0/0	0	0	0		0	0	0		0	0	0	0		0	0	1		12
+Seahawks D/ST D/ST		LIND			@Car	W 13-9		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		12
+Matt Prater, Det K		BALS			@Atl	W 22-21		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		11
+Jimmy Graham, NO TE		NOMS			GB	W 44-23		0/0	0	0	0		0	0	0		5	59	1	6		0	0	0		11
+Alshon Jeffery, Chi WR  P		NOMS			@NE	L 23-51		0/0	0	0	0		0	0	0		5	59	1	8		0	0	0		11
+Markus Wheaton, Pit WR		WA (Wed)			Ind	W 51-34		0/0	0	0	0		0	0	0		5	56	1	5		0	0	0		11
+Robert Woods, Buf WR		WA (Wed)			@NYJ	W 43-23		0/0	0	0	0		0	0	0		3	50	1	3		0	0	0		11
+Denard Robinson, Jac RB		WA (Wed)			Mia	L 13-27		0/0	0	0	0		18	108	0		1	10	0	2		0	0	0		11
+Browns D/ST D/ST		WA (Wed)			Oak	W 23-13		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		11
+Adam Vinatieri, Ind K		NOMS			@Pit	L 34-51		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		10
+Alex Smith, KC QB		WA (Wed)			StL	W 34-7		25/29	223	0	0		3	24	0		0	0	0	0		0	0	0		10
+Graham Gano, Car K		WA (Wed)			Sea	L 9-13		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		10
+Demaryius Thomas, Den WR		Solo			SD	W 35-21		0/0	0	0	0		0	0	0		8	105	0	12		0	0	0		10
+Kai Forbath, Wsh K		WA (Wed)			@Dal	W 20-17		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		10
+Giovani Bernard, Cin RB  P		NOMS			Bal	W 27-24		0/0	0	0	0		16	45	1		2	2	0	2		0	0	0		10
+Caleb Sturgis, Mia K		WA (Wed)			@Jac	W 27-13		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		10
+Blake Bortles, Jac QB  P		WA (Wed)			Mia	L 13-27		18/34	221	1	2		6	48	0		0	0	0	0		0	1	0		10
+Cody Parkey, Phi K		WA (Wed)			@Ari	L 20-24		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		10
+Patrick Murray, TB K		WA (Wed)			Min	L 13-19		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		10
+Steelers D/ST D/ST		NOMS			Ind	W 51-34		0/0	0	0	0		0	0	0		0	0	0	0		0	0	1		10
+Mike Nugent, Cin K		GREG			Bal	W 27-24		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		9
+Greg Jennings, Min WR  P		CHB			@TB	W 19-13		0/0	0	0	0		0	0	0		3	38	1	6		0	0	0		9
+Delanie Walker, Ten TE  P		PERO			Hou	L 16-30		0/0	0	0	0		0	0	0		4	37	1	9		0	0	0		9
+Justin Forsett, Bal RB		PERO			@Cin	L 24-27		0/0	0	0	0		17	68	0		3	17	0	5		1	0	0		9
+Steven Hauschka, Sea K		GREG			@Car	W 13-9		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		9
+LeSean McCoy, Phi RB		DC00			@Ari	L 20-24		0/0	0	0	0		21	83	0		3	14	0	5		0	0	0		9
+Dez Bryant, Dal WR		BOSS			Wsh	L 17-20		0/0	0	0	0		0	0	0		3	30	1	7		0	0	0		9
+Lamar Miller, Mia RB  Q		NOMS			@Jac	W 27-13		0/0	0	0	0		14	78	0		3	21	0	3		0	0	0		9
+DeAndre Hopkins, Hou WR		BOSS			@Ten	W 30-16		0/0	0	0	0		0	0	0		5	95	0	11		0	0	0		9
+Cordarrelle Patterson, Min WR		BALS			@TB	W 19-13		0/0	0	0	0		1	10	0		6	86	0	12		0	0	0		9
+Mike Glennon, TB QB		WA (Wed)			Min	L 13-19		19/28	171	1	1		3	13	0		0	0	0	0		0	0	0		9
+Justin Hunter, Ten WR  Q		WA (Wed)			Hou	L 16-30		0/0	0	0	0		0	0	0		4	31	1	10		0	0	0		9
+Kelvin Benjamin, Car WR		LIND			Sea	L 9-13		0/0	0	0	0		0	0	0		4	94	0	7		0	0	0		9
+Redskins D/ST D/ST		RUCK			@Dal	W 20-17		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		9
+Sebastian Janikowski, Oak K		WA (Wed)			@Cle	L 13-23		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		8
+Jonathan Stewart, Car RB		WA (Wed)			Sea	L 9-13		0/0	0	0	0		16	79	0		3	15	0	5		0	0	0		8
+Ben Tate, Min RB		DC00			@TB	W 19-13		0/0	0	0	0		15	26	1		1	8	0	1		0	0	0		8
+Riley Cooper, Phi WR		WA (Wed)			@Ari	L 20-24		0/0	0	0	0		0	0	0		5	88	0	9		0	0	0		8
+Bilal Powell, NYJ RB		WA (Wed)			Buf	L 23-43		0/0	0	0	0		4	28	1		0	0	0	0		0	0	0		8
+Dwayne Allen*, Ind TE  O		RUCK			@Pit	L 34-51		0/0	0	0	0		0	0	0		1	21	1	2		0	0	0		8
+Austin Davis, StL QB		WA (Wed)			@KC	L 7-34		15/25	160	1	1		1	1	0		0	0	0	0		0	0	0		8
+Jonas Gray, NE RB  P		WA (Wed)			Chi	W 51-23		0/0	0	0	0		17	86	0		0	0	0	0		0	0	0		8
+Mychal Rivera, Oak TE		WA (Wed)			@Cle	L 13-23		0/0	0	0	0		0	0	0		7	83	0	9		0	0	0		8
+Luke Willson, Sea TE		WA (Wed)			@Car	W 13-9		0/0	0	0	0		0	0	0		1	23	1	4		0	0	0		8
+Jerick McKinnon, Min RB  P		BOSS			@TB	W 19-13		0/0	0	0	0		16	83	0		1	-1	0	1		0	0	0		8
+Panthers D/ST D/ST		WA (Wed)			Sea	L 9-13		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		8
+Josh Scobee, Jac K		WA (Wed)			Mia	L 13-27		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		7
+Shaun Suisham, Pit K		WA (Wed)			Ind	W 51-34		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		7
+Scott Chandler, Buf TE		WA (Wed)			@NYJ	W 43-23		0/0	0	0	0		0	0	0		1	12	1	2		0	0	0		7
+Nick Folk, NYJ K		WA (Wed)			Buf	L 23-43		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		7
+Blair Walsh, Min K		Solo			@TB	W 19-13		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		7
+Mike Evans, TB WR		WA (Wed)			Min	L 13-19		0/0	0	0	0		0	0	0		4	78	0	7		0	0	0		7
+Davante Adams, GB WR		WA (Wed)			@NO	L 23-44		0/0	0	0	0		0	0	0		7	75	0	9		0	0	0		7
+Bengals D/ST D/ST		PERO			Bal	W 27-24		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		7
+Texans D/ST D/ST		PERO			@Ten	W 30-16		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		7
+Michael Vick, NYJ QB		WA (Wed)			Buf	L 23-43		18/36	153	0	1		8	69	0		0	0	0	0		0	2	0		6
+Roddy White, Atl WR		NOMS			Det	L 21-22		0/0	0	0	0		0	0	0		5	66	0	6		0	0	0		6
+Nate Washington, Ten WR		WA (Wed)			Hou	L 16-30		0/0	0	0	0		0	0	0		4	68	0	4		0	0	0		6
+Marshawn Lynch, Sea RB  P		LIND			@Car	W 13-9		0/0	0	0	0		14	62	0		1	2	0	4		0	0	0		6
+Dwayne Bowe, KC WR		WA (Wed)			StL	W 34-7		0/0	0	0	0		0	0	0		6	64	0	6		0	0	0		6
+James Jones, Oak WR		Solo			@Cle	L 13-23		0/0	0	0	0		0	0	0		6	62	0	11		0	0	0		6
+Bear Pascoe, Atl TE		WA (Wed)			Det	L 21-22		0/0	0	0	0		0	0	0		1	1	1	1		0	0	0		6
+Frank Summers, Buf RB  P		WA (Wed)			@NYJ	W 43-23		0/0	0	0	0		1	2	1		0	0	0	0		0	0	0		6
+Lance Kendricks, StL TE		WA (Wed)			@KC	L 7-34		0/0	0	0	0		0	0	0		1	1	1	1		0	0	0		6
+Lee Smith, Buf TE		WA (Wed)			@NYJ	W 43-23		0/0	0	0	0		0	0	0		2	5	1	2		0	0	0		6
+Doug Baldwin, Sea WR		BOSS			@Car	W 13-9		0/0	0	0	0		0	0	0		6	61	0	8		0	0	0		6
+Brandon Weeden, Dal QB		WA (Wed)			Wsh	L 17-20		4/6/2014	69	1	0		1	0	0		0	0	0	0		0	0	0		6
+Rishard Matthews, Mia WR		WA (Wed)			@Jac	W 27-13		0/0	0	0	0		0	0	0		1	3	1	2		0	0	0		6
+Bobby Rainey, TB RB		WA (Wed)			Min	L 13-19		0/0	0	0	0		8	25	0		6	41	0	6		0	0	0		6
+Chase Ford, Min TE		WA (Wed)			@TB	W 19-13		0/0	0	0	0		0	0	0		6	61	0	6		0	0	0		6
+Terrance Williams, Dal WR		RUCK			Wsh	L 17-20		0/0	0	0	0		0	0	0		6	69	0	7		0	0	0		6
+Josh Hill, NO TE		WA (Wed)			GB	W 44-23		0/0	0	0	0		0	0	0		1	2	1	1		0	0	0		6
+Austin Seferian-Jenkins, TB TE		WA (Wed)			Min	L 13-19		0/0	0	0	0		0	0	0		3	26	1	4		0	1	0		6
+Devonta Freeman, Atl RB		WA (Wed)			Det	L 21-22		0/0	0	0	0		3	5	0		1	7	1	1		0	0	0		6
+Alfred Blue, Hou RB		WA (Wed)			@Ten	W 30-16		0/0	0	0	0		14	42	0		1	22	0	1		0	0	0		6
+Chandler Catanzaro, Ari K		LIND			Phi	W 24-20		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		6
+Taylor Gabriel, Cle WR		WA (Wed)			Oak	W 23-13		0/0	0	0	0		0	0	0		2	60	0	3		0	0	0		6
+Broncos D/ST D/ST		BALS			SD	W 35-21		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		6
+Lions D/ST D/ST		BOSS			@Atl	W 22-21		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		6
+Andre Johnson, Hou WR  P		DC00			@Ten	W 30-16		0/0	0	0	0		0	0	0		7	55	0	12		0	0	0		5
+Malcom Floyd, SD WR		LIND			@Den	L 21-35		0/0	0	0	0		0	0	0		4	58	0	7		0	0	0		5
+Darren McFadden, Oak RB		BOSS			@Cle	L 13-23		0/1	0	0	0		12	59	0		4	26	0	6		0	1	0		5
+Kenny Britt, StL WR		WA (Wed)			@KC	L 7-34		0/0	0	0	0		0	0	0		2	52	0	5		0	0	0		5
+Mike Wallace, Mia WR  P		DC00			@Jac	W 27-13		0/0	0	0	0		0	0	0		2	59	0	7		0	0	0		5
+Joique Bell, Det RB  P		GREG			@Atl	W 22-21		0/0	0	0	0		14	39	0		2	22	0	3		0	0	0		5
+Julio Jones, Atl WR  P		BOSS			Det	L 21-22		0/0	0	0	0		0	0	0		4	58	0	6		0	0	0		5
+Dan Bailey, Dal K		DC00			Wsh	L 17-20		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		5
+Kendall Wright, Ten WR		WA (Wed)			Hou	L 16-30		0/0	0	0	0		0	0	0		3	53	0	5		0	0	0		5
+Dion Sims, Mia TE		WA (Wed)			@Jac	W 27-13		0/0	0	0	0		0	0	0		2	51	0	2		0	0	0		5
+Kenny Stills, NO WR		WA (Wed)			GB	W 44-23		0/0	0	0	0		0	0	0		4	57	0	4		0	0	0		5
+Richard Rodgers, GB TE		WA (Wed)			@NO	L 23-44		0/0	0	0	0		0	0	0		4	58	0	5		0	0	0		5
+Jace Amaro, NYJ TE		WA (Wed)			Buf	L 23-43		0/0	0	0	0		0	0	0		5	51	0	5		0	0	0		5
+Bishop Sankey, Ten RB		Solo			Hou	L 16-30		0/0	0	0	0		9	35	0		4	25	0	4		0	0	0		5
+Branden Oliver, SD RB		PERO			@Den	L 21-35		0/0	0	0	0		13	36	0		7	27	0	8		0	0	0		5
+Saints D/ST D/ST		WA (Wed)			GB	W 44-23		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		5
+Jaguars D/ST D/ST		WA (Wed)			Mia	L 13-27		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		5
+Ravens D/ST D/ST		NOMS			@Cin	L 24-27		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		5
+Leon Washington, Ten RB		WA (Wed)			Hou	L 16-30		0/0	0	0	0		0	0	0		3	40	0	3		0	0	0		4
+Marques Colston, NO WR		WA (Wed)			GB	W 44-23		0/0	0	0	0		0	0	0		4	49	0	5		0	0	0		4
+Joe Flacco, Bal QB		CHB			@Cin	L 24-27		17/34	195	0	2		2	12	0		0	0	0	0		0	0	0		4
+Harry Douglas, Atl WR  P		WA (Wed)			Det	L 21-22		0/0	0	0	0		0	0	0		3	42	0	5		0	0	0		4
+Pierre Garcon, Wsh WR		Solo			@Dal	W 20-17		0/0	0	0	0		0	0	0		4	47	0	4		0	0	0		4
+Percy Harvin, NYJ WR		BOSS			Buf	L 23-43		0/0	0	0	0		4	28	0		3	22	0	9		0	0	0		4
+Ryan Succop, Ten K		WA (Wed)			Hou	L 16-30		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		4
+Anthony Dixon, Buf RB		WA (Wed)			@NYJ	W 43-23		0/0	0	0	0		22	44	0		0	0	0	0		0	0	0		4
+Eric Decker, NYJ WR		GREG			Buf	L 23-43		0/0	0	0	0		0	0	0		7	40	0	13		0	0	0		4
+Cam Newton, Car QB		NOMS			Sea	L 9-13		12/22/2014	171	0	1		12	24	0		0	0	0	0		0	1	0		4
+Shane Vereen, NE RB		BALS			Chi	W 51-23		0/0	0	0	0		5	22	0		3	23	0	5		0	0	0		4
+Greg Little*, Cin WR  O		WA (Wed)			Bal	W 27-24		0/0	0	0	0		0	0	0		3	42	0	5		0	0	0		4
+Cecil Shorts III, Jac WR		WA (Wed)			Mia	L 13-27		0/0	0	0	0		0	0	0		3	41	0	8		0	0	0		4
+Jordan Cameron*, Cle TE  O		Solo			Oak	W 23-13		0/0	0	0	0		0	0	0		3	40	0	5		0	0	0		4
+Robert Turbin, Sea RB		WA (Wed)			@Car	W 13-9		0/0	0	0	0		2	10	0		3	32	0	3		0	0	0		4
+Travaris Cadet, NO RB  P		WA (Wed)			GB	W 44-23		0/0	0	0	0		1	7	0		4	40	0	5		0	0	0		4
+Zach Ertz, Phi TE		LIND			@Ari	L 20-24		0/0	0	0	0		0	0	0		5	48	0	8		0	0	0		4
+Travis Kelce, KC TE  P		WA (Wed)			StL	W 34-7		0/0	0	0	0		0	0	0		4	45	0	6		0	0	0		4
+Jordan Reed*, Wsh TE  O		LIND			@Dal	W 20-17		0/0	0	0	0		0	0	0		7	40	0	7		0	0	0		4
+Corey Fuller, Det WR		WA (Wed)			@Atl	W 22-21		0/0	0	0	0		0	0	0		3	43	0	6		0	0	0		4
+Jordan Matthews, Phi WR  P		WA (Wed)			@Ari	L 20-24		0/0	0	0	0		0	0	0		6	47	0	11		0	0	0		4
+Jeremy Hill, Cin RB		RUCK			Bal	W 27-24		0/0	0	0	0		10	25	0		4	28	0	4		0	0	0		4
+Michael Campanaro*, Bal WR  O		WA (Wed)			@Cin	L 24-27		0/0	0	0	0		0	0	0		3	40	0	3		0	0	0		4
+Allen Hurns, Jac WR		WA (Wed)			Mia	L 13-27		0/0	0	0	0		0	0	0		3	49	0	4		0	0	0		4
+Brandon McManus, Den K		BOSS			SD	W 35-21		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		4
+Steve Smith, Bal WR		GREG			@Cin	L 24-27		0/0	0	0	0		0	0	0		3	35	0	9		0	0	0		3
+Matt Bryant, Atl K		WA (Wed)			Det	L 21-22		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		3
+Jerricho Cotchery, Car WR		WA (Wed)			Sea	L 9-13		0/0	0	0	0		0	0	0		3	33	0	5		0	0	0		3
+Nick Novak, SD K		CHB			@Den	L 21-35		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		3
+Lance Moore, Pit WR		WA (Wed)			Ind	W 51-34		0/0	0	0	0		0	0	0		2	33	0	3		0	0	0		3
+Brandon Marshall, Chi WR  P		PERO			@NE	L 23-51		0/0	0	0	0		0	0	0		3	35	0	10		0	0	0		3
+Miles Austin, Cle WR		WA (Wed)			Oak	W 23-13		0/0	0	0	0		0	0	0		2	34	0	2		0	0	0		3
+Marcel Reece, Oak RB		WA (Wed)			@Cle	L 13-23		0/0	0	0	0		0	0	0		5	34	0	6		0	0	0		3
+Brandon Tate, Cin WR		WA (Wed)			Bal	W 27-24		0/0	0	0	0		0	0	0		2	30	0	2		0	0	0		3
+Dexter McCluster, Ten WR, RB		WA (Wed)			Hou	L 16-30		0/0	0	0	0		2	1	0		4	39	0	4		0	0	0		3
+Jermaine Gresham, Cin TE		WA (Wed)			Bal	W 27-24		0/0	0	0	0		0	0	0		4	34	0	4		0	0	0		3
+Roy Helu, Wsh RB		WA (Wed)			@Dal	W 20-17		0/0	0	0	0		5	29	0		2	14	0	2		0	0	0		3
+Jeremy Ross, Det WR		WA (Wed)			@Atl	W 22-21		0/0	0	0	0		0	0	0		3	31	0	4		0	0	0		3
+Damaris Johnson, Hou WR		WA (Wed)			@Ten	W 30-16		0/0	0	0	0		0	0	0		2	33	0	4		0	0	0		3
+Stedman Bailey, StL WR		WA (Wed)			@KC	L 7-34		0/0	0	0	0		0	0	0		2	33	0	3		0	0	0		3
+Zac Stacy, StL RB		BALS			@KC	L 7-34		0/0	0	0	0		5	17	0		3	20	0	4		0	0	0		3
+Kenbrell Thompkins, Oak WR		WA (Wed)			@Cle	L 13-23		0/0	0	0	0		1	7	0		4	34	0	8		0	0	0		3
+Tre Mason, StL RB		BOSS			@KC	L 7-34		0/0	0	0	0		7	32	0		1	1	0	1		0	0	0		3
+Ka'Deem Carey, Chi RB		WA (Wed)			@NE	L 23-51		0/0	0	0	0		6	33	0		0	0	0	0		0	0	0		3
+Jets D/ST D/ST		WA (Wed)			Buf	L 23-43		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		3
+Dante Rosario, Chi TE		WA (Wed)			@NE	L 23-51		0/0	0	0	0		0	0	0		1	6	0	2		1	0	0		2
+Jordy Nelson, GB WR		RUCK			@NO	L 23-44		0/0	0	0	0		0	0	0		3	25	0	5		0	0	0		2
+Eddie Royal, SD WR		WA (Wed)			@Den	L 21-35		0/0	0	0	0		0	0	0		3	29	0	3		0	0	0		2
+Hakeem Nicks, Ind WR		WA (Wed)			@Pit	L 34-51		0/0	0	0	0		0	0	0		1	27	0	6		0	0	0		2
+Jim Dray, Cle TE		WA (Wed)			Oak	W 23-13		0/0	0	0	0		0	0	0		2	27	0	2		0	0	0		2
+Clay Harbor, Jac TE		WA (Wed)			Mia	L 13-27		0/0	0	0	0		0	0	0		2	27	0	4		0	0	0		2
+Daniel Thomas, Mia RB		WA (Wed)			@Jac	W 27-13		0/0	0	0	0		4	18	0		2	12	0	2		0	0	0		2
+Anthony Sherman, KC RB		WA (Wed)			StL	W 34-7		0/0	0	0	0		0	0	0		1	24	0	1		0	0	0		2
+Jeremy Kerley, NYJ WR		WA (Wed)			Buf	L 23-43		0/0	0	0	0		0	0	0		2	25	0	5		0	0	0		2
+Niles Paul, Wsh TE		WA (Wed)			@Dal	W 20-17		0/0	0	0	0		0	0	0		3	27	0	3		0	0	0		2
+Jacquizz Rodgers, Atl RB		WA (Wed)			Det	L 21-22		0/0	0	0	0		1	2	0		3	28	0	3		0	0	0		2
+Julius Thomas, Den TE  Q		RUCK			SD	W 35-21		0/0	0	0	0		0	0	0		2	23	0	5		0	0	0		2
+Ricardo Lockette, Sea WR		WA (Wed)			@Car	W 13-9		0/0	0	0	0		0	0	0		2	22	0	2		0	0	0		2
+Matt Asiata*, Min RB  O		CHB			@TB	W 19-13		0/0	0	0	0		4	1	0		4	26	0	5		0	0	0		2
+Will Johnson, Pit RB		WA (Wed)			Ind	W 51-34		0/0	0	0	0		0	0	0		2	22	0	2		0	0	0		2
+Doug Martin, TB RB  P		WA (Wed)			Min	L 13-19		0/0	0	0	0		10	27	0		2	-1	0	2		0	0	0		2
+Griff Whalen, Ind WR		WA (Wed)			@Pit	L 34-51		0/0	0	0	0		0	0	0		2	23	0	3		0	0	0		2
+Levine Toilolo, Atl TE		WA (Wed)			Det	L 21-22		0/0	0	0	0		0	0	0		2	26	0	2		0	0	0		2
+Kyle Juszczyk, Bal RB  P		WA (Wed)			@Cin	L 24-27		0/0	0	0	0		0	0	0		1	21	0	1		0	0	0		2
+Benjamin Cunningham, StL RB		WA (Wed)			@KC	L 7-34		0/0	0	0	0		4	27	0		1	8	0	1		0	0	0		2
+Crockett Gillmore, Bal TE		WA (Wed)			@Cin	L 24-27		0/0	0	0	0		0	0	0		2	23	0	2		0	0	0		2
+Paul Richardson, Sea WR		WA (Wed)			@Car	W 13-9		0/0	0	0	0		0	0	0		2	20	0	3		0	0	0		2
+Terrance West, Cle RB		NOMS			Oak	W 23-13		0/0	0	0	0		7	11	0		1	10	0	2		0	0	0		2
+Jarvis Landry, Mia WR  P		WA (Wed)			@Jac	W 27-13		0/0	0	0	0		1	4	0		3	23	0	3		0	0	0		2
+Cowboys D/ST D/ST		CHB			Wsh	L 17-20		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		2
+Rams D/ST D/ST		Solo			@KC	L 7-34		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		2
+Vincent Jackson, TB WR		PERO			Min	L 13-19		0/0	0	0	0		0	0	0		1	13	0	5		0	0	0		1
+Robbie Gould, Chi K		WA (Wed)			@NE	L 23-51		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		1
+Anthony Fasano, KC TE  P		WA (Wed)			StL	W 34-7		0/0	0	0	0		0	0	0		4	19	0	4		0	0	0		1
+Greg Olsen, Car TE		DC00			Sea	L 9-13		0/0	0	0	0		0	0	0		1	16	0	3		0	0	0		1
+Chris Johnson, NYJ RB  P		WA (Wed)			Buf	L 23-43		0/0	0	0	0		3	7	0		2	13	0	2		0	0	0		1
+John Carlson, Ari TE		WA (Wed)			Phi	W 24-20		0/0	0	0	0		0	0	0		2	16	0	6		0	0	0		1
+Jared Cook, StL TE  Q		BALS			@KC	L 7-34		0/0	0	0	0		0	0	0		1	11	0	3		0	0	0		1
+Brian Hartline, Mia WR		WA (Wed)			@Jac	W 27-13		0/0	0	0	0		0	0	0		1	19	0	4		0	0	0		1
+Louis Murphy, TB WR		WA (Wed)			Min	L 13-19		0/0	0	0	0		0	0	0		2	11	0	2		0	0	0		1
+Julian Edelman, NE WR  P		NOMS			Chi	W 51-23		0/0	0	0	0		0	0	0		1	14	0	4		0	0	0		1
+Darrel Young, Wsh RB		WA (Wed)			@Dal	W 20-17		0/0	0	0	0		0	0	0		1	12	0	1		0	0	0		1
+Toby Gerhart, Jac RB		WA (Wed)			Mia	L 13-27		0/0	0	0	0		4	10	0		1	3	0	1		0	0	0		1
+LeGarrette Blount, NE RB		CHB			Chi	W 51-23		0/0	0	0	0		6	21	0		2	11	0	2		0	1	0		1
+Andre Roberts, Wsh WR		WA (Wed)			@Dal	W 20-17		0/0	0	0	0		0	0	0		1	11	0	5		0	0	0		1
+Ed Dickson, Car TE		WA (Wed)			Sea	L 9-13		0/0	0	0	0		0	0	0		1	13	0	1		0	0	0		1
+Andrew Quarless, GB TE		WA (Wed)			@NO	L 23-44		0/0	0	0	0		0	0	0		2	19	0	3		0	0	0		1
+Jordan Todman, Jac RB		WA (Wed)			Mia	L 13-27		0/0	0	0	0		2	10	0		2	0	0	2		0	0	0		1
+Robert Hughes, Ari RB  P		WA (Wed)			Phi	W 24-20		0/0	0	0	0		0	0	0		2	13	0	2		0	0	0		1
+Chris Hogan, Buf WR  P		WA (Wed)			@NYJ	W 43-23		0/0	0	0	0		0	0	0		1	14	0	1		0	0	0		1
+Kamar Aiken, Bal WR		WA (Wed)			@Cin	L 24-27		0/0	0	0	0		0	0	0		2	15	0	6		0	0	0		1
+Chris Polk, Phi RB		WA (Wed)			@Ari	L 20-24		0/0	0	0	0		3	13	0		1	1	0	1		0	0	0		1
+Brian Quick*, StL WR  IR		BALS			@KC	L 7-34		0/0	0	0	0		0	0	0		1	10	0	2		0	0	0		1
+Jarius Wright, Min WR  P		WA (Wed)			@TB	W 19-13		0/0	0	0	0		0	0	0		2	13	0	3		0	0	0		1
+Chris Givens, StL WR		WA (Wed)			@KC	L 7-34		0/0	0	0	0		0	0	0		1	12	0	2		0	0	0		1
+Bryce Brown, Buf RB		WA (Wed)			@NYJ	W 43-23		0/0	0	0	0		7	15	0		0	0	0	3		0	0	0		1
+Cole Beasley, Dal WR		WA (Wed)			Wsh	L 17-20		0/0	0	0	0		0	0	0		1	11	0	2		0	0	0		1
+Lance Dunbar, Dal RB		WA (Wed)			Wsh	L 17-20		0/0	0	0	0		1	6	0		1	11	0	2		0	0	0		1
+Jermaine Kearse, Sea WR		WA (Wed)			@Car	W 13-9		0/0	0	0	0		0	0	0		2	15	0	2		0	0	0		1
+Cooper Helfet, Sea TE		WA (Wed)			@Car	W 13-9		0/0	0	0	0		0	0	0		1	11	0	4		0	0	0		1
+Tavon Austin, StL WR		WA (Wed)			@KC	L 7-34		0/0	0	0	0		2	7	0		2	12	0	2		0	0	0		1
+Christine Michael, Sea RB		WA (Wed)			@Car	W 13-9		0/0	0	0	0		4	12	0		0	0	0	0		0	0	0		1
+Charles Johnson, Min WR		WA (Wed)			@TB	W 19-13		0/0	0	0	0		0	0	0		2	18	0	5		0	0	0		1
+Kevin Norwood, Sea WR		WA (Wed)			@Car	W 13-9		0/0	0	0	0		0	0	0		2	13	0	2		0	0	0		1
+James White, NE RB		WA (Wed)			Chi	W 51-23		0/0	0	0	0		6	17	0		0	0	0	0		0	0	0		1
+De'Anthony Thomas, KC RB		WA (Wed)			StL	W 34-7		0/0	0	0	0		0	0	0		4	14	0	5		0	0	0		1
+Falcons D/ST D/ST		WA (Wed)			Det	L 21-22		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		1
+Titans D/ST D/ST		WA (Wed)			Hou	L 16-30		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		1
+Raiders D/ST D/ST		WA (Wed)			@Cle	L 13-23		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		1
+Buccaneers D/ST D/ST		WA (Wed)			Min	L 13-19		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		1
+Tony Gonzalez, Atl TE		WA (Wed)			Det	L 21-22		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		0
+Jon Kitna, Dal QB		WA (Wed)			Wsh	L 17-20		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		0
+Matt Hasselbeck, Ind QB		WA (Wed)			@Pit	L 34-51		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		0
+David Akers, Det K		WA (Wed)			@Atl	W 22-21		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		0
+Brandon Stokley, Bal WR		WA (Wed)			@Cin	L 24-27		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		0
+Plaxico Burress, Pit WR		WA (Wed)			Ind	W 51-34		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		0
+Rian Lindell, TB K		WA (Wed)			Min	L 13-19		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		0
+Jay Feely, Ari K		WA (Wed)			Phi	W 24-20		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		0
+Santana Moss, Wsh WR		WA (Wed)			@Dal	W 20-17		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		0
+Reggie Wayne, Ind WR  P		Solo			@Pit	L 34-51		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		0
+Josh McCown, TB QB		WA (Wed)			Min	L 13-19		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		0
+David Garrard, NYJ QB		WA (Wed)			Buf	L 23-43		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		0
+Shaun Hill, StL QB		WA (Wed)			@KC	L 7-34		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		0
+Rex Grossman, Cle QB		WA (Wed)			Oak	W 23-13		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		0
+Willis McGahee, Cle RB		WA (Wed)			Oak	W 23-13		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		0
+Dallas Clark, Bal TE		WA (Wed)			@Cin	L 24-27		0/0	0	0	0		0	0	0		0	0	0	0		0	0	0		0
