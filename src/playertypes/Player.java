@@ -39,6 +39,10 @@ public abstract class Player implements Comparable<Player> {
 		this.pts = pts;
 	}
 	
+	public double getValue() {
+		return this.getProjection() * 1000.0 / this.getCost();
+	}
+	
 	@Override
 	public String toString() {
 		return "Player [name=" + name + ", cost=" + cost + 

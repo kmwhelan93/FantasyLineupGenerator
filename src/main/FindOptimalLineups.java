@@ -19,7 +19,7 @@ public class FindOptimalLineups {
 	private static final int budget = 50000;
 	private static final int minProj = 2;
 	private static final double minValueRatio = 2.8;
-	private static final int cutOffNum = 6;
+	private static final int cutOffNum = 5;
 	private static int countOverMin = 0;
 	
 	private static ArrayList<Player> qbs;
@@ -48,7 +48,6 @@ public class FindOptimalLineups {
 		addToMap(everyone, wrs);
 		addToMap(everyone, tes);
 		addToMap(everyone, dsts);
-		
 		addCosts(everyone);
 		populateStats(everyone);
 		// check which ones don't have a cost
@@ -61,7 +60,6 @@ public class FindOptimalLineups {
 			}
 				
 		}
-		
 		purgePoorValueRatios();
 		System.out.println("Count over min: " + countOverMin);
 		
@@ -118,10 +116,13 @@ public class FindOptimalLineups {
 		System.out.println(tes);
 		System.out.println(dsts);
 		
-		printWinningPercentage(20000, 158);
-		printWinningPercentage(2000, 158);
-		printWinningPercentage(200, 158);
-		printWinningPercentage(20, 158);
+		int medianValue = 163;
+		
+		System.out.println("For median value " + medianValue + ":");
+		printWinningPercentage(20000, medianValue);
+		printWinningPercentage(2000, medianValue);
+		printWinningPercentage(200, medianValue);
+		printWinningPercentage(20, medianValue);
 	}
 	
 	public static void printWinningPercentage(int freq, int threshold) {
@@ -191,12 +192,48 @@ public class FindOptimalLineups {
 	}
 	
 	public static void purgePoorValueRatios() {
+		Player cheapQB = getLowCostHighValue(qbs, 5500);
 		qbs = new ArrayList<Player>(qbs.subList(0, cutOffNum));
+		if (!qbs.contains(cheapQB)) {
+			qbs.add(cheapQB);
+		}
+		Player cheapRB = getLowCostHighValue(rbs, 3200);
 		rbs = new ArrayList<Player>(rbs.subList(0, cutOffNum * 2));
+		if (!rbs.contains(cheapRB)) {
+			rbs.add(cheapRB);
+		}
+		Player cheapWR = getLowCostHighValue(wrs, 3200);
 		wrs = new ArrayList<Player>(wrs.subList(0, cutOffNum * 3));
+		if (!wrs.contains(cheapWR)) {
+			wrs.add(cheapWR);
+		}
+		Player cheapTE = getLowCostHighValue(tes, 3200);
 		tes = new ArrayList<Player>(tes.subList(0, cutOffNum));
+		if (!tes.contains(cheapTE)) {
+			tes.add(cheapTE);
+		}
+		Player cheapDST = getLowCostHighValue(dsts, 2500);
 		dsts = new ArrayList<Player>(dsts.subList(0, cutOffNum));
+		if (!dsts.contains(cheapDST)) {
+			dsts.add(cheapDST);
+		}
 		//purgePoorValueRatios(dsts, cutOffNum);
+	}
+	
+	public static ArrayList<Player> purgeWithExceptions(ArrayList<Player> players, int atLeastOneLessThanThisCost) {
+		return null;
+	}
+	
+	public static Player getLowCostHighValue(ArrayList<Player> players, int maxCost) {
+		Player bestPlayer = null;
+		double bestValue = 0;
+		for (Player p : players) {
+			if (p.getCost() <= maxCost && p.getCost() > 0 && p.getValue() > bestValue) {
+				bestPlayer = p;
+				bestValue = p.getValue();
+			}
+		}
+		return bestPlayer;
 	}
 	
 	public static void purgePoorValueRatios(ArrayList<Player> players, int cutOffNum) {
