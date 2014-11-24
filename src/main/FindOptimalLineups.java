@@ -51,7 +51,6 @@ public class FindOptimalLineups {
 		
 		addCosts(everyone);
 		populateStats(everyone);
-		
 		// check which ones don't have a cost
 		int count = 0;
 		for (Player p : everyone.values()) {
@@ -100,22 +99,29 @@ public class FindOptimalLineups {
 		playerMatrix.add(tes);
 		playerMatrix.add(dsts);
 		
-		
+
 		System.out.println("Generating lineups!");
 		generateLineUps(1, new LineUp(budget), maxCosts);
 		
 		
-		
+
 		System.out.println("DONE");
 		System.out.println(lineUps.size());
 		Collections.sort(lineUps);
 		for (int i = 0; i < 50; i++) {
-			System.out.println(lineUps.get(i));
+			System.out.println("index " + (i * 100) + ": " + lineUps.get(i*100));
 		}
+		System.out.println("PLAYERS IN COMBINATIONS");
+		System.out.println(qbs);
+		System.out.println(rbs);
+		System.out.println(wrs);
+		System.out.println(tes);
+		System.out.println(dsts);
 		
-		printWinningPercentage(2000, 162);
-		printWinningPercentage(200, 162);
-		printWinningPercentage(20, 162);
+		printWinningPercentage(20000, 158);
+		printWinningPercentage(2000, 158);
+		printWinningPercentage(200, 158);
+		printWinningPercentage(20, 158);
 	}
 	
 	public static void printWinningPercentage(int freq, int threshold) {
@@ -160,11 +166,11 @@ public class FindOptimalLineups {
 		populateDefenseStats(everyone);
 		
 		// check which ones are missing
-		for (Player p : everyone.values()) {
-			if (p.getPts() == .001) {
-				System.out.println(p + " is missing points");
-			}
-		}
+//		for (Player p : everyone.values()) {
+//			if (p.getPts() == .001) {
+//				System.out.println(p + " is missing points");
+//			}
+//		}
 	}
 	
 	public static void populateDefenseStats(HashMap<String, Player> everyone) throws FileNotFoundException {
@@ -216,7 +222,7 @@ public class FindOptimalLineups {
 	}
 	
 	public static void generateLineUps(int depth, LineUp curLineUp, int[] maxCosts) {
-		if (depth == 9) {
+		if (depth == 10) {
 			if (lineUps.size() % 10000 == 0) {
 				//System.out.println(lineUps.size());
 			}
@@ -337,15 +343,13 @@ public class FindOptimalLineups {
 	public static void checkForExceptions(HashMap<String, Player> everyone, Player p) {
 		if (p.getName().equals("Cecil Shorts")) {
 			everyone.put("Cecil Shorts III", p);
-		} else if (p.getName().equals("David Nelson")) {
-			everyone.put("Jordy Nelson", p);
 		} else if (p.getName().equals("Ty Hilton")) {
 			everyone.put("T.Y. Hilton", p);
 		} else if (p.getName().equals("Roy Helu")) {
 			everyone.put("Roy Helu Jr.", p);
 		} else if (p.getName().equals("Steve Smith")) {
 			everyone.put("Steve Smith Sr.", p);
-		} else if (p.getName().equals("Timothy Wright")) {
+		}else if (p.getName().equals("Timothy Wright")) {
 			everyone.put("Tim Wright", p);
 		} else if (p.getName().equals("Christopher Ivory")) {
 			everyone.put("Chris Ivory", p);
