@@ -29,7 +29,6 @@ public class QB extends Player {
 		return StatLine.getQBPts(projPassYds, projPassTds, projPassInts, projRushYds, projRushTds, projFumbles);
 	}
 
-	@Override
 	public double getFantasyPts() {
 		// TODO implement based on actual stats
 		return StatLine.getQBPts(passYds, passTds, passInts, rushYds, rushTds, fumbles);

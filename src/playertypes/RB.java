@@ -39,7 +39,6 @@ public class RB extends Player {
 		return StatLine.getRBPts(projRushYds, projRushTds, projRecAtt, projRecYds, projRecTds, projFumbles);
 	}
 
-	@Override
 	public double getFantasyPts() {
 		return StatLine.getRBPts(rushYds, rushTds, recAtt, recYds, recTds, fumbles);
 	}

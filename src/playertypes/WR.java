@@ -39,7 +39,6 @@ public class WR extends Player {
 		return StatLine.getWRPts(projRushYds, projRushTds, projRecAtt, projRecYds, projRecTds, projFumbles);
 	}
 
-	@Override
 	public double getFantasyPts() {
 		return StatLine.getWRPts(rushYds, rushTds, recAtt, recYds, recTds, fumbles);
 	}

@@ -18,7 +18,6 @@ public class DST extends Player {
 	public double getProjection() {
 		return proj;
 	}
-	@Override
 	public double getFantasyPts() {
 		// TODO implement
 		return 0;

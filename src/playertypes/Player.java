@@ -7,14 +7,16 @@ public abstract class Player implements Comparable<Player> {
 	
 	protected String name;
 	protected int cost;
+	protected double pts;
 		
 	public abstract double getProjection();
-	public abstract double getFantasyPts();
+	//public abstract double getFantasyPts();
 	public abstract Position getPosition();
 	public abstract void loadProjections(String data);
 	
 	public Player(String name) {
 		this.name = name;
+		pts = .001;
 	}
 	
 	public String getName() {
@@ -29,11 +31,19 @@ public abstract class Player implements Comparable<Player> {
 		this.cost = cost;
 	}
 	
+	public double getPts() {
+		return pts;
+	}
+	
+	public void setPts(double pts) {
+		this.pts = pts;
+	}
+	
 	@Override
 	public String toString() {
 		return "Player [name=" + name + ", cost=" + cost + 
 				", proj=" + df.format(this.getProjection()) + 
-				", actual=" + df.format(this.getFantasyPts()) + "]";
+				", actual=" + df.format(this.getPts()) + "]";
 	}
 	@Override
 	public int hashCode() {

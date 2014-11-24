@@ -76,6 +76,12 @@ public class StatLine {
 	private static double getPts(double passYds, double passTds,
 			double passInts, double rushYds, double rushTds, double recAtt,
 			double recYds, double recTds, double fumbles) {
+		return StatLine.getPts(passYds, passTds, passInts, rushYds, rushTds, recAtt, recYds, recTds, 0, fumbles, 0);
+	}
+	
+	public static double getPts(double passYds, double passTds,
+			double passInts, double rushYds, double rushTds, double recAtt,
+			double recYds, double recTds, double twoPcs, double fumbles, double miscTds) {
 		double points = 0;
 		points += passYds / 25.0;
 		points += passTds * 4;
@@ -95,6 +101,9 @@ public class StatLine {
 			points += 3;
 		if (recYds >= 100)
 			points += 3;
+		
+		points += twoPcs*2;
+		points += miscTds*6;
 		
 		return points;
 	}

@@ -10,6 +10,7 @@ import java.util.HashSet;
 import java.util.Scanner;
 
 import playertypes.*;
+import stats.StatLine;
 import lineup.LineUp;
 
 
@@ -49,6 +50,7 @@ public class FindOptimalLineups {
 		addToMap(everyone, dsts);
 		
 		addCosts(everyone);
+		populateStats(everyone);
 		
 		// check which ones don't have a cost
 		int count = 0;
@@ -99,14 +101,86 @@ public class FindOptimalLineups {
 		playerMatrix.add(dsts);
 		
 		
-		
+		System.out.println("Generating lineups!");
 		generateLineUps(1, new LineUp(budget), maxCosts);
+		
+		
 		
 		System.out.println("DONE");
 		System.out.println(lineUps.size());
 		Collections.sort(lineUps);
 		for (int i = 0; i < 50; i++) {
 			System.out.println(lineUps.get(i));
+		}
+		
+		printWinningPercentage(2000, 162);
+		printWinningPercentage(200, 162);
+		printWinningPercentage(20, 162);
+	}
+	
+	public static void printWinningPercentage(int freq, int threshold) {
+		int winners = 0;
+		for (int i = 0; i < freq; i++) {
+			if (lineUps.get(i).getPts() > threshold) {
+				winners++;
+			}
+		}
+		System.out.println("Top " + freq + " lineups won " + (double) winners * 100.0 / freq + "% of the time");
+	}
+	
+	public static void populateStats(HashMap<String, Player> everyone) throws FileNotFoundException {
+		//PLAYER, TEAM POS		TYPE	ACTION		OPP	STATUS ET		C/A	YDS	TD	INT		RUSH	YDS	TD		REC	YDS	TD	TAR		2PC	FUML	TD		PTS
+		Scanner sc = new Scanner(new File("week" + WEEK + "/FantasyStats.txt"));
+		sc.nextLine();
+		sc.nextLine();
+		while (sc.hasNextLine()) {
+			String l = sc.nextLine();
+			String[] line = l.split("\t");
+			String name = line[0].split(",")[0];
+//			for (int i = 0; i < line.length; i++) {
+//				System.out.println(i + " " + line[i]);
+//			}
+			double passYds = Double.parseDouble(line[9]);
+			double passTds = Double.parseDouble(line[10]);
+			double passInts = Double.parseDouble(line[11]);
+			double rushYds = Double.parseDouble(line[14]);
+			double rushTds = Double.parseDouble(line[15]);
+			double recAtt = Double.parseDouble(line[17]);
+			double recYds = Double.parseDouble(line[18]);
+			double recTds = Double.parseDouble(line[19]);
+			double twoPcs = Double.parseDouble(line[22]);
+			double fumbles = Double.parseDouble(line[23]);
+			double miscTds = Double.parseDouble(line[24]);
+			double pts = StatLine.getPts(passYds, passTds, passInts, rushYds, rushTds, recAtt, recYds, recTds, twoPcs, fumbles, miscTds);
+			if (everyone.containsKey(name)) {
+				everyone.get(name).setPts(pts);
+			}
+		}
+		
+		populateDefenseStats(everyone);
+		
+		// check which ones are missing
+		for (Player p : everyone.values()) {
+			if (p.getPts() == .001) {
+				System.out.println(p + " is missing points");
+			}
+		}
+	}
+	
+	public static void populateDefenseStats(HashMap<String, Player> everyone) throws FileNotFoundException {
+		Scanner sc = new Scanner(new File("week" + WEEK + "/FantasyDSTStats.txt"));
+		sc.nextLine();
+		sc.nextLine();
+		while (sc.hasNextLine()) {
+			String l = sc.nextLine();
+			String[] line = l.split("\t");
+			String name = line[0].split(" ")[0];
+			if (everyone.containsKey(name)) {
+				everyone.get(name).setPts(Double.parseDouble(line[26]));
+			}
+//			for (int i = 0; i < line.length; i++) {
+//				System.out.println(i + " " + line[i]);
+//			}
 		}
 	}
 	

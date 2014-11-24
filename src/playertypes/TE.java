@@ -32,7 +32,6 @@ public class TE extends Player {
 		return StatLine.getTEPts(projRecAtt, projRecYds, projRecTds, projFumbles);
 	}
 
-	@Override
 	public double getFantasyPts() {
 		return StatLine.getTEPts(recAtt, recYds, recTds, fumbles);
 	}
