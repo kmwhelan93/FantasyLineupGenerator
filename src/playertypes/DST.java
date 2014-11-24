@@ -3,8 +3,9 @@ package playertypes;
 public class DST extends Player {
 	private double proj;
 	
-	public DST(String name) {
-		this.name = name;
+	public DST(String name, double proj) {
+		super(name);
+		this.proj = proj;
 	}
 	
 	@Override

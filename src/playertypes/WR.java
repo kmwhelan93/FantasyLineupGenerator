@@ -20,7 +20,7 @@ public class WR extends Player {
 	private double fumbles;
 	
 	public WR(String name) {
-		this.name = name;
+		super(name);
 	}
 	
 	@Override

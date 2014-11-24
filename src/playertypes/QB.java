@@ -21,7 +21,7 @@ public class QB extends Player {
 	
 	
 	public QB(String name) {
-		this.name = name;
+		super(name);
 	}
 
 	@Override

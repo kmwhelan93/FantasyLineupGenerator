@@ -15,7 +15,7 @@ public class TE extends Player {
 	private double fumbles;
 	
 	public TE (String name) {
-		this.name = name;
+		super(name);
 	}
 	
 	@Override

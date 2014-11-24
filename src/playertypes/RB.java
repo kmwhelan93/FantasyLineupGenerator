@@ -20,18 +20,18 @@ public class RB extends Player {
 	private double fumbles;
 	
 	public RB(String name) {
-		this.name = name;
+		super(name);
 	}
 	
 	@Override
 	public void loadProjections(String data) {
 		String[] d = data.split("\t");
 		this.projRushYds = Double.parseDouble(d[3]);
-		this.projRushYds = Double.parseDouble(d[4]);
-		this.projRushYds = Double.parseDouble(d[5]);
-		this.projRushYds = Double.parseDouble(d[6]);
-		this.projRushYds = Double.parseDouble(d[7]);
-		this.projRushYds = Double.parseDouble(d[8]);
+		this.projRushTds = Double.parseDouble(d[4]);
+		this.projRecAtt = Double.parseDouble(d[5]);
+		this.projRecYds = Double.parseDouble(d[6]);
+		this.projRecTds = Double.parseDouble(d[7]);
+		this.projFumbles = Double.parseDouble(d[8]);
 	}
 
 	@Override
