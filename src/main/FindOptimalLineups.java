@@ -15,13 +15,15 @@ import lineup.LineUp;
 
 
 public class FindOptimalLineups {
+	// CONFIGURATION THINGS
 	private static final String WEEK = "08";
 	private static final int budget = 50000;
+	// Minimum projected value to be included in initial list
 	private static final int minProj = 2;
-	private static final double minValueRatio = 2.8;
+	// tweak this number to change the number of combinations that are tried.
 	private static final int cutOffNum = 5;
-	private static int countOverMin = 0;
 	
+	// CLASS SPECIFIC THINGS	
 	private static ArrayList<Player> qbs;
 	private static ArrayList<Player> rbs;
 	private static ArrayList<Player> wrs;
@@ -32,6 +34,8 @@ public class FindOptimalLineups {
 	private static ArrayList<LineUp> lineUps = new ArrayList<LineUp>();
 	private static HashMap<Integer, Integer> maxCostMap;
 	private static ArrayList<ArrayList<Player>> playerMatrix;
+	// The minimum cost a player can be by position
+	// index 0: QB, 1: Flex, 2: WR, 3: RB, 4: TE, 5: DST
 	private static int[] minCosts = {5000, 3000, 3000, 3000, 3000, 2400};
 	
 	public static void main (String[] args) throws FileNotFoundException {
@@ -42,53 +46,36 @@ public class FindOptimalLineups {
 		tes = FindOptimalLineups.<TE>loadPlayersWProjections("TE");
 		dsts = FindOptimalLineups.loadDSTWProjections();
 		
+		// Populate a HashMap that maps player names to their actual object
 		HashMap<String, Player> everyone = new HashMap<String, Player>();
 		addToMap(everyone, qbs);
 		addToMap(everyone, rbs);
 		addToMap(everyone, wrs);
 		addToMap(everyone, tes);
 		addToMap(everyone, dsts);
+		
+		// Read from DraftKings salaries and update costs for players
 		addCosts(everyone);
+		
+		// populate results for all players
 		populateStats(everyone);
-		// check which ones don't have a cost
-		int count = 0;
-		for (Player p : everyone.values()) {
-			if (p.getCost() == 0) {
-				System.out.println(p + " has a cost of 0... setting to 3000");
-				p.setCost(3000);
-				count++;
-			}
-				
-		}
+
 		purgePoorValueRatios();
-		System.out.println("Count over min: " + countOverMin);
 		
 		flexes = new ArrayList<Player>();
 		flexes.addAll(rbs);
 		flexes.addAll(wrs);
 		flexes.addAll(tes);
 		
-		int[] maxCosts = new int[6];
-		maxCosts[0] = maxCost(qbs);
-		maxCosts[1] = maxCost(flexes);
-		maxCosts[2] = maxCost(wrs);
-		maxCosts[3] = maxCost(rbs);
-		maxCosts[4] = maxCost(tes);
-		maxCosts[5] = maxCost(dsts);
+		// Array of maximum costs by position
+		// index 0 has max cost of a QB, 1: Flex, 2: WR, 3:RB, 4: TE, 5: DST
+		int[] maxCosts = createMaxCostArray();
 		
-		maxCostMap = new HashMap<Integer, Integer>();
-		maxCostMap.put(1, 0);
-		maxCostMap.put(2, 1);
-		maxCostMap.put(3, 2);
-		maxCostMap.put(4, 2);
-		maxCostMap.put(5, 2);
-		maxCostMap.put(6, 3);
-		maxCostMap.put(7, 3);
-		maxCostMap.put(8, 4);
-		maxCostMap.put(9, 5);
+		// Since there are 9 players and only 6 positions, we need to map a player in lineup index to their position
+		// For example, 1 maps to 0 (QB), 2 maps to 1 (Flex), 3,4,5 all map to 2 (WR), 6,7 map to 3(RB), 8 maps to 4(TE), 9 maps to 5(DST)
+		maxCostMap = createMaxCostMap();
 		
-		
-		
+		// This is needed for the generateLineUps method to programmatically choose the correct arraylist of players based on depth
 		playerMatrix = new ArrayList<ArrayList<Player>>();
 		playerMatrix.add(qbs);
 		playerMatrix.add(flexes);
@@ -99,6 +86,8 @@ public class FindOptimalLineups {
 		
 
 		System.out.println("Generating lineups!");
+		// The core of everything. The recursive call to generate the lineups.
+		// TODO make this not recursive to save the stack.
 		generateLineUps(1, new LineUp(budget), maxCosts);
 		
 		
@@ -217,7 +206,6 @@ public class FindOptimalLineups {
 		if (!dsts.contains(cheapDST)) {
 			dsts.add(cheapDST);
 		}
-		//purgePoorValueRatios(dsts, cutOffNum);
 	}
 	
 	public static ArrayList<Player> purgeWithExceptions(ArrayList<Player> players, int atLeastOneLessThanThisCost) {
@@ -234,18 +222,6 @@ public class FindOptimalLineups {
 			}
 		}
 		return bestPlayer;
-	}
-	
-	public static void purgePoorValueRatios(ArrayList<Player> players, int cutOffNum) {
-//		for (int i = 0; i < players.size(); i++) {
-//			double valueRatio = players.get(i).getProjection() / players.get(i).getCost() * 1000;
-//			if (valueRatio < minValueRatio) {
-//				players.remove(i);
-//				i--;
-//			} else {
-//				countOverMin++;
-//			}
-//		}
 	}
 	
 	public static int maxCost(ArrayList<Player> players) {
@@ -369,6 +345,42 @@ public class FindOptimalLineups {
 				everyone.get(name).setCost(cost);
 			}
 		}
+		
+		// check which ones don't have a cost
+		int count = 0;
+		for (Player p : everyone.values()) {
+			if (p.getCost() == 0) {
+				System.out.println(p + " has a cost of 0... setting to 3000");
+				p.setCost(3000);
+				count++;
+			}
+				
+		}
+	}
+	
+	public static int[] createMaxCostArray() {
+		int[] maxCosts = new int[6];
+		maxCosts[0] = maxCost(qbs);
+		maxCosts[1] = maxCost(flexes);
+		maxCosts[2] = maxCost(wrs);
+		maxCosts[3] = maxCost(rbs);
+		maxCosts[4] = maxCost(tes);
+		maxCosts[5] = maxCost(dsts);
+		return maxCosts;
+	}
+	
+	public static HashMap<Integer, Integer> createMaxCostMap() {
+		HashMap<Integer, Integer> maxCostMap = new HashMap<Integer, Integer>();
+		maxCostMap.put(1, 0);
+		maxCostMap.put(2, 1);
+		maxCostMap.put(3, 2);
+		maxCostMap.put(4, 2);
+		maxCostMap.put(5, 2);
+		maxCostMap.put(6, 3);
+		maxCostMap.put(7, 3);
+		maxCostMap.put(8, 4);
+		maxCostMap.put(9, 5);
+		return maxCostMap;
 	}
 	
 	public static <T extends Player> void addToMap(HashMap<String, Player> everyone, ArrayList<T> players) {
