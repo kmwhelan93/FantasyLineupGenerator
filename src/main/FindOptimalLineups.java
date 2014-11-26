@@ -89,21 +89,16 @@ public class FindOptimalLineups {
 		// The core of everything. The recursive call to generate the lineups.
 		// TODO make this not recursive to save the stack.
 		generateLineUps(1, new LineUp(budget), maxCosts);
-		
-		
+				
 
 		System.out.println("DONE");
-		System.out.println(lineUps.size());
+		System.out.println("Total Lineups Generated: " + lineUps.size());
 		Collections.sort(lineUps);
 		for (int i = 0; i < 50; i++) {
 			System.out.println("index " + (i * 100) + ": " + lineUps.get(i*100));
 		}
 		System.out.println("PLAYERS IN COMBINATIONS");
-		System.out.println(qbs);
-		System.out.println(rbs);
-		System.out.println(wrs);
-		System.out.println(tes);
-		System.out.println(dsts);
+		outputPositions(qbs, rbs, wrs, tes, dsts);
 		
 		int medianValue = 163;
 		
@@ -112,6 +107,23 @@ public class FindOptimalLineups {
 		printWinningPercentage(2000, medianValue);
 		printWinningPercentage(200, medianValue);
 		printWinningPercentage(20, medianValue);
+
+		printDemographics(lineUps.size());
+	}
+
+	public static void outputPositions(ArrayList<Player>... args) {
+		for (ArrayList<Player> position : args)	System.out.println(position);
+	}
+
+	public static void printDemographics(int totalTeams) {
+		System.out.println("\nDemographic Data");
+		System.out.println("-----------------");
+		for (ArrayList<Player> position : playerMatrix) {
+			for (Player p : position) {
+				double percentage = ((double) p.getMembership()*100) / totalTeams;
+				System.out.printf(p.getName()+": " + "%1.2f" + "%%\n", percentage);
+			}
+		}	
 	}
 	
 	public static void printWinningPercentage(int freq, int threshold) {
@@ -238,8 +250,9 @@ public class FindOptimalLineups {
 		if (depth == 10) {
 			if (lineUps.size() % 10000 == 0) {
 				//System.out.println(lineUps.size());
-			}
+			}			
 			lineUps.add(curLineUp);
+			curLineUp.updatePlayerDemographics();
 			return;
 		}
 		ArrayList<Player> toAdd;

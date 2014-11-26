@@ -8,6 +8,7 @@ public abstract class Player implements Comparable<Player> {
 	protected String name;
 	protected int cost;
 	protected double pts;
+	protected int membership;
 		
 	public abstract double getProjection();
 	//public abstract double getFantasyPts();
@@ -17,6 +18,15 @@ public abstract class Player implements Comparable<Player> {
 	public Player(String name) {
 		this.name = name;
 		pts = .001;
+		membership = 0;
+	}
+
+	public int getMembership() {
+		return this.membership;
+	}
+
+	public void incrementMembership(){
+		this.membership++;
 	}
 	
 	public String getName() {

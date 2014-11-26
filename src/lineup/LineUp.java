@@ -72,6 +72,10 @@ public class LineUp implements Comparable<LineUp> {
 		}
 		return pts;
 	}
+
+	public void updatePlayerDemographics() {
+		for(Player p : _getPlayers()) p.incrementMembership();
+	}
 	
 	private ArrayList<Player> _getPlayers() {
 		return players;
