@@ -22,6 +22,7 @@ public class FindOptimalLineups {
 	private static final int minProj = 2;
 	// tweak this number to change the number of combinations that are tried.
 	private static final int cutOffNum = 5;
+	private static final int topLineUpsDemographics = 200;
 	
 	// CLASS SPECIFIC THINGS	
 	private static ArrayList<Player> qbs;
@@ -108,7 +109,8 @@ public class FindOptimalLineups {
 		printWinningPercentage(200, medianValue);
 		printWinningPercentage(20, medianValue);
 
-		printDemographics(lineUps.size());
+		updateDemographics(FindOptimalLineups.topLineUpsDemographics);
+		printDemographics(topLineUpsDemographics);
 	}
 
 	public static void outputPositions(ArrayList<Player>... args) {
@@ -116,7 +118,7 @@ public class FindOptimalLineups {
 	}
 
 	public static void printDemographics(int totalTeams) {
-		System.out.println("\nDemographic Data");
+		System.out.println("\nDemographic Data for top " + topLineUpsDemographics + " lineups");
 		System.out.println("-----------------");
 		for (ArrayList<Player> position : playerMatrix) {
 			for (Player p : position) {
@@ -124,6 +126,12 @@ public class FindOptimalLineups {
 				System.out.printf(p.getName()+": " + "%1.2f" + "%%\n", percentage);
 			}
 		}	
+	}
+	
+	public static void updateDemographics(int numPlayers) {
+		for (int i = 0; i < numPlayers; i++) {
+			lineUps.get(i).updatePlayerDemographics();
+		}
 	}
 	
 	public static void printWinningPercentage(int freq, int threshold) {
@@ -252,7 +260,6 @@ public class FindOptimalLineups {
 				//System.out.println(lineUps.size());
 			}			
 			lineUps.add(curLineUp);
-			curLineUp.updatePlayerDemographics();
 			return;
 		}
 		ArrayList<Player> toAdd;
