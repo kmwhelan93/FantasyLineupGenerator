@@ -41,7 +41,6 @@ Ryan Fitzpatrick	HOU	0.5 	0.3 	3.0 	0.0 	0.0 	0.1 	0.3 	0.0 	0.0 	0.2
 Geno Smith	NYJ	0.6 	0.3 	3.5 	0.0 	0.0 	0.1 	0.4 	0.0 	0.0 	0.2 	
 Tyrod Taylor	BAL	0.5 	0.3 	3.4 	0.0 	0.0 	0.0 	0.1 	0.0 	0.0 	0.2 	
 Blaine Gabbert	SF	0.3 	0.2 	2.5 	0.0 	0.0 	0.0 	0.1 	0.0 	0.0 	0.2 	
-Chase Daniel	KC	0.4 	0.3 	3.0 	0.0 	0.0 	0.0 	0.1 	0.0 	0.0 	0.2 	
 Dan Orlovsky	DET	0.5 	0.3 	3.1 	0.0 	0.0 	0.0 	0.1 	0.0 	0.0 	0.2 	
 Tarvaris Jackson	SEA	0.4 	0.2 	2.8 	0.0 	0.0 	0.0 	0.1 	0.0 	0.0 	0.2 	
 Luke McCown	NO	0.4 	0.2 	2.8 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.2 	
@@ -65,12 +64,10 @@ Matt Barkley	PHI	0.2 	0.1 	0.7 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0
 Rex Grossman	CLE	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	
 David Garrard	NYJ	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	
 Jon Kitna	DAL	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	
-Aaron Murray	KC	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	
 AJ McCarron	CIN	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	
 Matt Simms	NYJ	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	
 Josh Johnson	SF	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	
 David Fales	CHI	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	
-Tyler Bray	KC	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	
 Ben Roethlisberger	PIT	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	
 Bruce Gradkowski	PIT	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	
 Derek Anderson	CAR	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	0.0 	

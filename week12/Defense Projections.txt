@@ -1,0 +1,32 @@
+PLAYERS	STATUS		WK 12		PASSING				RUSHING			RECEIVING			TOTAL
+PLAYER, TEAM POS	TYPE	ACTION	OPP	STATUS ET	C/A	YDS	TD	INT	RUSH	YDS	TD	REC	YDS	TD	PTS
+Bills D/ST D/ST	Solo		NYJ	W 38-3	0/0	0	0	0	0	0	0	0	0	0	12
+Chargers D/ST D/ST	WA (Wed)		StL	W 27-24	0/0	0	0	0	0	0	0	0	0	0	10
+Packers D/ST D/ST	RUCK		@Min	W 24-21	0/0	0	0	0	0	0	0	0	0	0	9
+Chiefs D/ST D/ST	Solo		@Oak	L 20-24	0/0	0	0	0	0	0	0	0	0	0	9
+Eagles D/ST D/ST	BALS		Ten	W 43-24	0/0	0	0	0	0	0	0	0	0	0	8
+Colts D/ST D/ST	WA (Wed)		Jac	W 23-3	0/0	0	0	0	0	0	0	0	0	0	6
+Rams D/ST D/ST	WA (Wed)		@SD	L 24-27	0/0	0	0	0	0	0	0	0	0	0	6
+49ers D/ST D/ST	DC00		Wsh	W 17-13	0/0	0	0	0	0	0	0	0	0	0	6
+Bears D/ST D/ST	WA (Wed)		TB	W 21-13	0/0	0	0	0	0	0	0	0	0	0	5
+Broncos D/ST D/ST	BALS		Mia	W 39-36	0/0	0	0	0	0	0	0	0	0	0	5
+Dolphins D/ST D/ST	BALS		@Den	L 36-39	0/0	0	0	0	0	0	0	0	0	0	5
+Patriots D/ST D/ST	GREG		Det	W 34-9	0/0	0	0	0	0	0	0	0	0	0	5
+Jets D/ST D/ST	WA (Wed)		@Buf	L 3-38	0/0	0	0	0	0	0	0	0	0	0	5
+Seahawks D/ST D/ST	LIND		Ari	W 19-3	0/0	0	0	0	0	0	0	0	0	0	5
+Redskins D/ST D/ST	WA (Wed)		@SF	L 13-17	0/0	0	0	0	0	0	0	0	0	0	5
+Cowboys D/ST D/ST	CHB		@NYG	W 31-28	0/0	0	0	0	0	0	0	0	0	0	4
+Lions D/ST D/ST	BOSS		@NE	L 9-34	0/0	0	0	0	0	0	0	0	0	0	4
+Buccaneers D/ST D/ST	WA (Wed)		@Chi	L 13-21	0/0	0	0	0	0	0	0	0	0	0	4
+Browns D/ST D/ST	DC00		@Atl	W 26-24	0/0	0	0	0	0	0	0	0	0	0	3
+Vikings D/ST D/ST	WA (Wed)		GB	L 21-24	0/0	0	0	0	0	0	0	0	0	0	3
+Cardinals D/ST D/ST	Solo		@Sea	L 3-19	0/0	0	0	0	0	0	0	0	0	0	3
+Ravens D/ST D/ST	NOMS		@NO	W 34-27	0/0	0	0	0	0	0	0	0	0	0	3
+Bengals D/ST D/ST	WA (Wed)		@Hou	W 22-13	0/0	0	0	0	0	0	0	0	0	0	2
+Titans D/ST D/ST	WA (Wed)		@Phi	L 24-43	0/0	0	0	0	0	0	0	0	0	0	2
+Raiders D/ST D/ST	WA (Wed)		KC	W 24-20	0/0	0	0	0	0	0	0	0	0	0	2
+Texans D/ST D/ST	PERO		Cin	L 13-22	0/0	0	0	0	0	0	0	0	0	0	2
+Saints D/ST D/ST	WA (Wed)		Bal	L 27-34	0/0	0	0	0	0	0	0	0	0	0	1
+Giants D/ST D/ST	CHB		Dal	L 28-31	0/0	0	0	0	0	0	0	0	0	0	1
+Falcons D/ST D/ST	WA (Wed)		Cle	L 24-26	0/0	0	0	0	0	0	0	0	0	0	0
+Jaguars D/ST D/ST	WA (Wed)		@Ind	L 3-23	0/0	0	0	0	0	0	0	0	0	0	-2

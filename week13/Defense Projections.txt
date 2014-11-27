@@ -1,0 +1,34 @@
+PLAYERS	STATUS		WK 13		PASSING				RUSHING			RECEIVING			TOTAL
+PLAYER, TEAM POS	TYPE	ACTION	OPP	STATUS ET	C/A	YDS	TD	INT	RUSH	YDS	TD	REC	YDS	TD	PTS
+Dolphins D/ST D/ST	BALS		@NYJ	Mon 8:30	0/0	0	0	0	0	0	0	0	0	0	10
+Giants D/ST D/ST	CHB		@Jac	Sun 1:00	0/0	0	0	0	0	0	0	0	0	0	9
+Lions D/ST D/ST	BOSS		Chi	Thu 12:30	0/0	0	0	0	0	0	0	0	0	0	8
+Rams D/ST D/ST	WA (Wed)		Oak	Sun 1:00	0/0	0	0	0	0	0	0	0	0	0	7
+Texans D/ST D/ST	PERO		Ten	Sun 1:00	0/0	0	0	0	0	0	0	0	0	0	7
+Vikings D/ST D/ST	WA (Wed)		Car	Sun 1:00	0/0	0	0	0	0	0	0	0	0	0	6
+Seahawks D/ST D/ST	LIND		@SF	Thu 8:30	0/0	0	0	0	0	0	0	0	0	0	6
+Ravens D/ST D/ST	NOMS		SD	Sun 1:00	0/0	0	0	0	0	0	0	0	0	0	6
+Bills D/ST D/ST	Solo		Cle	Sun 1:00	0/0	0	0	0	0	0	0	0	0	0	5
+Bears D/ST D/ST	WA (Wed)		@Det	Thu 12:30	0/0	0	0	0	0	0	0	0	0	0	5
+Broncos D/ST D/ST	BALS		@KC	Sun 8:30	0/0	0	0	0	0	0	0	0	0	0	5
+Panthers D/ST D/ST	WA (Wed)		@Min	Sun 1:00	0/0	0	0	0	0	0	0	0	0	0	5
+Bengals D/ST D/ST	WA (Wed)		@TB	Sun 1:00	0/0	0	0	0	0	0	0	0	0	0	4
+Browns D/ST D/ST	DC00		@Buf	Sun 1:00	0/0	0	0	0	0	0	0	0	0	0	4
+Colts D/ST D/ST	WA (Wed)		Wsh	Sun 1:00	0/0	0	0	0	0	0	0	0	0	0	4
+Raiders D/ST D/ST	WA (Wed)		@StL	Sun 1:00	0/0	0	0	0	0	0	0	0	0	0	4
+Jets D/ST D/ST	WA (Wed)		Mia	Mon 8:30	0/0	0	0	0	0	0	0	0	0	0	4
+49ers D/ST D/ST	DC00		Sea	Thu 8:30	0/0	0	0	0	0	0	0	0	0	0	4
+Jaguars D/ST D/ST	WA (Wed)		NYG	Sun 1:00	0/0	0	0	0	0	0	0	0	0	0	4
+Eagles D/ST D/ST	BALS		@Dal	Thu 4:30	0/0	0	0	0	0	0	0	0	0	0	3
+Cardinals D/ST D/ST	Solo		@Atl	Sun 4:05	0/0	0	0	0	0	0	0	0	0	0	3
+Chargers D/ST D/ST	WA (Wed)		@Bal	Sun 1:00	0/0	0	0	0	0	0	0	0	0	0	3
+Falcons D/ST D/ST	WA (Wed)		Ari	Sun 4:05	0/0	0	0	0	0	0	0	0	0	0	2
+Titans D/ST D/ST	WA (Wed)		@Hou	Sun 1:00	0/0	0	0	0	0	0	0	0	0	0	2
+Patriots D/ST D/ST	GREG		@GB	Sun 4:25	0/0	0	0	0	0	0	0	0	0	0	2
+Steelers D/ST D/ST	NOMS		NO	Sun 1:00	0/0	0	0	0	0	0	0	0	0	0	2
+Buccaneers D/ST D/ST	WA (Wed)		Cin	Sun 1:00	0/0	0	0	0	0	0	0	0	0	0	2
+Cowboys D/ST D/ST	CHB		Phi	Thu 4:30	0/0	0	0	0	0	0	0	0	0	0	1
+Chiefs D/ST D/ST	Solo		Den	Sun 8:30	0/0	0	0	0	0	0	0	0	0	0	1
+Packers D/ST D/ST	RUCK		NE	Sun 4:25	0/0	0	0	0	0	0	0	0	0	0	0
+Saints D/ST D/ST	WA (Wed)		@Pit	Sun 1:00	0/0	0	0	0	0	0	0	0	0	0	-1
+Redskins D/ST D/ST	WA (Wed)		@Ind	Sun 1:00	0/0	0	0	0	0	0	0	0	0	0	-2
