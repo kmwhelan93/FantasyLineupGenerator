@@ -16,12 +16,13 @@ import lineup.LineUp;
 
 public class FindOptimalLineups {
 	// CONFIGURATION THINGS
-	private static final String WEEK = "08";
+	private static final String WEEK = "13";
+	private static final int medianValue = 160;
 	private static final int budget = 50000;
 	// Minimum projected value to be included in initial list
 	private static final int minProj = 2;
 	// tweak this number to change the number of combinations that are tried.
-	private static final int cutOffNum = 5;
+	private static final int cutOffNum = 6;
 	
 	// CLASS SPECIFIC THINGS	
 	private static ArrayList<Player> qbs;
@@ -56,12 +57,15 @@ public class FindOptimalLineups {
 		
 		// Read from DraftKings salaries and update costs for players
 		addCosts(everyone);
-		
 		// populate results for all players
-		populateStats(everyone);
-
-		purgePoorValueRatios();
+		try {
+			populateStats(everyone);
+		} catch (Exception e) {
+			System.out.println("Stats were not populated correctly");
+		}
 		
+		purgePoorValueRatios();
+
 		flexes = new ArrayList<Player>();
 		flexes.addAll(rbs);
 		flexes.addAll(wrs);
@@ -96,7 +100,14 @@ public class FindOptimalLineups {
 		System.out.println(lineUps.size());
 		Collections.sort(lineUps);
 		for (int i = 0; i < 50; i++) {
+			System.out.println("index " + (i) + ": " + lineUps.get(i));
+		}
+		for (int i = 0; i < 50; i++) {
 			System.out.println("index " + (i * 100) + ": " + lineUps.get(i*100));
+		}
+		for (int i = 0; i < 200; i++) {
+			lineUps.get(i).printCustom();
+			System.out.println();
 		}
 		System.out.println("PLAYERS IN COMBINATIONS");
 		System.out.println(qbs);
@@ -105,9 +116,8 @@ public class FindOptimalLineups {
 		System.out.println(tes);
 		System.out.println(dsts);
 		
-		int medianValue = 163;
-		
 		System.out.println("For median value " + medianValue + ":");
+		printWinningPercentage(200000, medianValue);
 		printWinningPercentage(20000, medianValue);
 		printWinningPercentage(2000, medianValue);
 		printWinningPercentage(200, medianValue);
@@ -183,27 +193,27 @@ public class FindOptimalLineups {
 	public static void purgePoorValueRatios() {
 		Player cheapQB = getLowCostHighValue(qbs, 5500);
 		qbs = new ArrayList<Player>(qbs.subList(0, cutOffNum));
-		if (!qbs.contains(cheapQB)) {
+		if (!qbs.contains(cheapQB) && cheapQB != null) {
 			qbs.add(cheapQB);
 		}
 		Player cheapRB = getLowCostHighValue(rbs, 3200);
 		rbs = new ArrayList<Player>(rbs.subList(0, cutOffNum * 2));
-		if (!rbs.contains(cheapRB)) {
+		if (!rbs.contains(cheapRB) && cheapRB != null) {
 			rbs.add(cheapRB);
 		}
 		Player cheapWR = getLowCostHighValue(wrs, 3200);
 		wrs = new ArrayList<Player>(wrs.subList(0, cutOffNum * 3));
-		if (!wrs.contains(cheapWR)) {
+		if (!wrs.contains(cheapWR) && cheapWR != null) {
 			wrs.add(cheapWR);
 		}
 		Player cheapTE = getLowCostHighValue(tes, 3200);
 		tes = new ArrayList<Player>(tes.subList(0, cutOffNum));
-		if (!tes.contains(cheapTE)) {
+		if (!tes.contains(cheapTE) && cheapTE != null) {
 			tes.add(cheapTE);
 		}
-		Player cheapDST = getLowCostHighValue(dsts, 2500);
+		Player cheapDST = getLowCostHighValue(dsts, 2800);
 		dsts = new ArrayList<Player>(dsts.subList(0, cutOffNum));
-		if (!dsts.contains(cheapDST)) {
+		if (!dsts.contains(cheapDST) && cheapDST != null) {
 			dsts.add(cheapDST);
 		}
 	}
@@ -227,6 +237,7 @@ public class FindOptimalLineups {
 	public static int maxCost(ArrayList<Player> players) {
 		int maxCost = 0;
 		for (Player p : players) {
+			System.out.println(p);
 			if (p.getCost() > maxCost) {
 				maxCost = p.getCost();
 			}
@@ -236,6 +247,8 @@ public class FindOptimalLineups {
 	
 	public static void generateLineUps(int depth, LineUp curLineUp, int[] maxCosts) {
 		if (depth == 10) {
+			if (curLineUp.getRemainingBudget() < 0)
+				return;
 			if (lineUps.size() % 10000 == 0) {
 				//System.out.println(lineUps.size());
 			}
@@ -254,9 +267,12 @@ public class FindOptimalLineups {
 				int[] copyMaxCosts = Arrays.copyOf(maxCosts, 6);
 				copyMaxCosts[maxCostIndex] = p.getCost();
 				if (maxCostIndex == 1) {
-					copyMaxCosts[2] = p.getCost();
-					copyMaxCosts[3] = p.getCost();
-					copyMaxCosts[4] = p.getCost();
+					if (p.getPosition().equals(Position.WR))
+						copyMaxCosts[2] = p.getCost();
+					if (p.getPosition().equals(Position.RB))
+						copyMaxCosts[3] = p.getCost();
+					if (p.getPosition().equals(Position.TE))
+						copyMaxCosts[4] = p.getCost();
 				}
 				int maxRemaining = 0;
 				int minRemaining = 0;
@@ -325,10 +341,18 @@ public class FindOptimalLineups {
 	
 	public static ArrayList<Player> loadDSTWProjections() throws FileNotFoundException {
 		ArrayList<Player> retVal = new ArrayList<Player>();
-		Scanner sc = new Scanner(new File("week" + WEEK + "/ESPN_Projections_DST.txt"));
+//		Scanner sc = new Scanner(new File("week" + WEEK + "/ESPN_Projections_DST.txt"));
+//		while (sc.hasNextLine()) {
+//			String[] line = sc.nextLine().split("\t");
+//			DST dst = new DST(line[0], Double.parseDouble(line[1]));
+//			retVal.add(dst);
+//		}
+		Scanner sc = new Scanner(new File("week" + WEEK + "/Defense Projections.txt"));
+		sc.nextLine();
+		sc.nextLine();
 		while (sc.hasNextLine()) {
 			String[] line = sc.nextLine().split("\t");
-			DST dst = new DST(line[0], Double.parseDouble(line[1]));
+			DST dst = new DST(line[0].split(" ")[0], Double.parseDouble(line[15]));
 			retVal.add(dst);
 		}
 		return retVal;
@@ -345,16 +369,31 @@ public class FindOptimalLineups {
 				everyone.get(name).setCost(cost);
 			}
 		}
-		
+		remove0s(qbs);
+		remove0s(rbs);
+		remove0s(wrs);
+		remove0s(tes);
+		remove0s(dsts);
 		// check which ones don't have a cost
 		int count = 0;
 		for (Player p : everyone.values()) {
 			if (p.getCost() == 0) {
-				System.out.println(p + " has a cost of 0... setting to 3000");
+				//System.out.println(p + " has a cost of 0... setting to 3000");
 				p.setCost(3000);
 				count++;
 			}
 				
+		}
+	}
+	
+	public static void remove0s(ArrayList<Player> players) {
+		for (int i = 0; i < players.size(); i++) {
+			Player p = players.get(i);
+			if (p.getCost() == 0) {
+				players.remove(i);
+				i--;
+				System.out.println(p + " has cost of 0... removing from list");
+			}
 		}
 	}
 	
@@ -365,6 +404,7 @@ public class FindOptimalLineups {
 		maxCosts[2] = maxCost(wrs);
 		maxCosts[3] = maxCost(rbs);
 		maxCosts[4] = maxCost(tes);
+		System.out.println(dsts);
 		maxCosts[5] = maxCost(dsts);
 		return maxCosts;
 	}
@@ -404,6 +444,8 @@ public class FindOptimalLineups {
 			everyone.put("Chris Ivory", p);
 		}  else if (p.getName().equals("Louis Murphy")) {
 			everyone.put("Louis Murphy Jr.", p);
+		} else if (p.getName().equals("Steve Johnson")) {
+			everyone.put("Stevie Johnson", p);
 		}
 	}
 }

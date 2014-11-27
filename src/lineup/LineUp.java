@@ -44,7 +44,7 @@ public class LineUp implements Comparable<LineUp> {
 	
 	@Override
 	public String toString() {
-		return "LineUp [players=" + players + ", proj=" + this.getProjection() + ", actual=" + this.getPts() + "]";
+		return "LineUp [players=" + players + ", proj=" + this.getProjection() + ", actual=" + this.getPts() + ", remBudg=" + this.getRemainingBudget() + "]";
 	}
 
 	public boolean isValid() {
@@ -75,6 +75,12 @@ public class LineUp implements Comparable<LineUp> {
 	
 	private ArrayList<Player> _getPlayers() {
 		return players;
+	}
+	public void printCustom() {
+		for (Player p : players) {
+			System.out.print(p.getName() + " ");
+		}
+		System.out.println();
 	}
 
 	@Override
